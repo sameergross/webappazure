@@ -1,28 +1,48 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
+    background-color: palevioletred;
+    
+}
   
-  .topnav {
+.topnav {
     overflow: hidden;
-    background-color: #333;
-  }
+    background-color: paleturquoise;
+    
+}
   
-  .topnav a {
+.topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  .topnav a:hover {
-    background-color: rgb(206, 195, 195);
+.topnav a:hover {
+    background-color: white;
     color: black;
-  }
+}
   
-  .topnav a.active {
-    background-color: #d456d4;
+.topnav a.active {
+    background-color: palevioletred;
     color: white;
-  }
+}
+
+.titles{
+    text-align: center;
+}
+
+form{
+    padding-left: 20px;
+    
+}
+
+input, textarea, button{
+    border: 1px solid black;
+    border-radius:5px;
+    text-align: left;
+    padding-left: 8px;
+    
+}
